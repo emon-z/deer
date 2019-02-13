@@ -1,0 +1,12 @@
+/*默认全局样式*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,input,button,textarea,p,blockquote,th,td a{ margin:0; padding:0; }
+body{
+　　font-family:"微软雅黑","宋体","Arial";
+　　color:#666; //全局文字颜色
+　　font-size:13px;
+}
+.backcor{
+	background: #ffffff;
+}
+ul,ol,li{list-style:none;}
+table{border-collapse:collapse;}

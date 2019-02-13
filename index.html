@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script  src="js/jquery.min.js"></script>
+	<script  src="js/bootstrap.min.js"></script>
+</head>
+<body class="backcor">
+	<!-- 导航栏开始 -->
+	<nav class="container">
+		<ul class="container-left" id="container-left">
+			<div class="logo"><img src="img/deer.png" alt=""></div>
+			<li><a href="#" title="">首页</a></li>
+			<li><a href="#" title="">歌单</a></li>
+			<li><a href="#" title="">分类</a></li>
+			<li><a href="#" title="">歌手</a></li>
+			<li><a href="#" title="">电台</a></li>
+		</ul>
+		<div class="nav-right">
+			<ul class="nav-right-ul">
+				<li><span class="label label-info">生命如歌</span>&nbsp;<span class="label label-info">岁月如诗</span></li>
+				<li><span class="label label-success">我歌唱着，忘却了所有的喧哗</span> </li>
+				<li class="drop-down" id="drop-down">
+					<a href="#"><span style="width: 30px;height: 30px"><img src="img/p12.jpeg" alt="" style="width100%;height: 100%;border-radius: 50%"></span></a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- 导航栏结束 -->
+	<!-- 轮播图开始 -->
+	<div class="swiper">
+		<div id="myCarousel" class="carousel slide">
+			<!-- 轮播（Carousel）指标 -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>   
+			<!-- 轮播（Carousel）项目 -->
+			<div class="carousel-inner">
+				<div class="item">
+					<img src="img/swiper1.jpg" alt="First slide">
+				</div>
+				<div class="item">
+					<img src="img/swiper2.jpg" alt="Second slide">
+				</div>
+				<div class="item active">
+					<img src="img/swiper3.jpg" alt="Third slide">
+				</div>
+			</div>
+			<!-- 轮播（Carousel）导航 -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div> 
+	</div>
+	<!-- 轮播图结束 -->
+	<!-- 图片展示开始 -->
+	<div class="imgshow" id="imgshow">
+		<ul class="imgshow-ul">
+			<li><img src="img/p1.jpg"></li>
+			<li><img src="img/p2.jpg"></li>
+			<li><img src="img/p3.jpg"></li>
+			<li><img src="img/p4.jpeg"></li>
+			<li><img src="img/p5.jpg"></li>
+			<li><img src="img/p6.jpeg"></li>
+			<li><img src="img/p7.jpeg"></li>
+			<li><img src="img/p9.jpeg"></li>
+			<li><img src="img/p10.jpeg"></li>
+			<li><img src="img/p11.jpeg"></li>
+			<li><img src="img/p12.jpeg"></li>
+			<li><img src="img/p13.jpeg"></li>
+			<li><img src="img/p14.jpeg"></li>
+			<li><img src="img/p15.jpeg"></li>
+			<li><img src="img/p16.jpeg"></li>
+			<li><img src="img/p8.jpg"></li>
+			<li><img src="img/p1.jpg"></li>
+			<li><img src="img/p2.jpg"></li>
+			<li><img src="img/p3.jpg"></li>
+			<li><img src="img/p4.jpeg"></li>
+			<li><img src="img/p5.jpg"></li>
+			<li><img src="img/p6.jpeg"></li>
+			<li><img src="img/p7.jpeg"></li>
+			<li><img src="img/p9.jpeg"></li>
+			<li><img src="img/p10.jpeg"></li>
+			<li><img src="img/p11.jpeg"></li>
+			<li><img src="img/p12.jpeg"></li>
+			<li><img src="img/p13.jpeg"></li>
+			<li><img src="img/p14.jpeg"></li>
+			<li><img src="img/p15.jpeg"></li>
+			<li><img src="img/p16.jpeg"></li>
+			<li><img src="img/p8.jpg"></li>
+		</ul>
+	</div>
+	<!-- 图片展示结束 -->
+	<!-- 进度条模块开始 -->
+	<div class="program-content">
+			<div class="program">
+				<h3> KIND OF MUSIC</h3>
+				<div class="progress progress-striped active">
+					<div class="progress-bar progress-bar-suucess " role="progressbar"aria-valuenow="60" aria-valuemin="0" 		aria-valuemax="100"style="width: 30%">
+						<span>古典音乐</span>
+					</div>
+				</div>
+				<div class="progress progress-striped active">
+					<div class="progress-bar progress-bar-warning " role="progressbar"aria-valuenow="60" aria-valuemin="0" 		aria-valuemax="100"style="width: 90%">
+						<span>流行音乐</span>
+					</div>
+				</div>
+				<div class="progress progress-striped active">
+					<div class="progress-bar progress-bar-info " role="progressbar"aria-valuenow="60" aria-valuemin="0" 		aria-valuemax="100"style="width: 50%">
+						<span>摇滚音乐</span>
+					</div>
+				</div>
+				<div class="progress progress-striped active">
+					<div class="progress-bar progress-bar-danger " role="progressbar"aria-valuenow="60" aria-valuemin="0" 		aria-valuemax="100"style="width: 40%">
+						<span>电子音乐</span>
+					</div>
+				</div>
+			</div>
+			<h3> TABLE OF MUSIC</h3>
+			<div class="program2 well">
+				<table class="table table-hover">
+  					<thead>
+  					  <tr>
+      					<th>歌曲</th>
+      					<th>歌手</th>
+      					<th>日期</th>
+      					<th>试听</th>
+    				  </tr>
+  					</thead>
+  					<tbody>
+  					  <tr>
+  					    <td>后来</td>
+  					    <td>申荣泽/杨斌</td>
+  					    <td>2017</td>
+  					    <td>&nbsp;<span class="glyphicon glyphicon-headphones" id="audio1" style="cursor: pointer"></span></td>
+  					  </tr>
+  					  <tr>
+  					    <td>虚拟</td>
+  					    <td>山竹</td>
+  					    <td>2018</td>
+  					    <td>&nbsp;<span class="glyphicon glyphicon-headphones" id="audio2" style="cursor: pointer"></span></td>
+  					  </tr>
+  					  <tr>
+  					    <td>水星记</td>
+  					    <td>纱琉璃</td>
+  					    <td>2018</td>
+  					    <td>&nbsp;<span class="glyphicon glyphicon-headphones" id="audio3" style="cursor: pointer"></span></td>
+  					  </tr>
+  					   <tr>
+  					    <td>浪费</td>
+  					    <td>李晋瑶</td>
+  					    <td>2018</td>
+  					    <td>&nbsp;<span class="glyphicon glyphicon-headphones" id="audio4" style="cursor: pointer"></span></td>
+  					  </tr>
+  					</tbody>
+					</table>
+			</div>
+	</div>
+	<!-- 音频文件区域 -->
+	<audio controls="controls" class="audio" name="1">
+		<source src="audio/后来.mp3">
+	</audio>
+	<audio controls="controls" class="audio" >
+		<source src="audio/虚拟.mp3" >
+	</audio>
+	<audio controls="controls"  class="audio">
+		<source src="audio/水星记.mp3">
+	</audio>
+	<audio controls="controls"  class="audio">
+		<source src="audio/浪费.mp3">
+	</audio>
+	<!-- 音频文件结束 -->
+
+	<!-- 动画区域 -->
+	<div class="move">
+		<i><h3 id="move-font">图片动画</h3></i>
+	</div>
+	<div class="pic" id="pic">
+			<div class="pic-left"><img src="img/show1.jpeg" alt=""></div>
+			<div class="pic-mid" id="mid"><img src="img/p12.jpeg" alt=""></div>
+			<div class="pic-right"><img src="img/show2.jpeg" alt=""></div>
+	</div>
+	<!-- 动画区域结束 -->
+	<!-- 尾部区域 -->
+	<div class="foot">
+		<div class="foot-logo"><img src="img/deer.png" alt=""></div>
+		<span>原创：@我和她有只猫</span>
+	</div>
+</body>
+<script src="js/common.js"></script>
+</html>
